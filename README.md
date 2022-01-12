@@ -19,6 +19,8 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 6. Launch Jupyter notebook and run below code to verify your installation
 
+```python
+
 import tensorflow as tf
 from tensorflow import keras
 model_MLP = keras.models.Sequential()
@@ -26,7 +28,7 @@ model_MLP.add(keras.layers.Dense(units = 5 , activation = 'relu' ,input_shape = 
 model_MLP.add(keras.layers.Dense(units = 1 , activation = 'sigmoid' ))
 model_MLP.summary()
 
-
+```
 
 ## Google Colab
 
@@ -35,10 +37,11 @@ https://colab.research.google.com/#create=true
 
 Run below code to verify your output
 
+```python
 import tensorflow as tf
 from tensorflow import keras
 model_MLP = keras.models.Sequential()
 model_MLP.add(keras.layers.Dense(units = 5 , activation = 'relu' ,input_shape = [4,]))
 model_MLP.add(keras.layers.Dense(units = 1 , activation = 'sigmoid' ))
 model_MLP.summary()
-
+```
