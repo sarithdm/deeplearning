@@ -17,7 +17,7 @@ https://docs.anaconda.com/anaconda/install/linux/
 4. In the ‘dl_workshop’ environment, select ‘Not installed’ and search for ‘tensorflow’. Tick ‘tensorflow’ and ‘Apply’. The pop-up window will appear, click on apply. 
 5. At your new ‘dl_workshop’ environment. Select ‘Not installed’ and search for ‘keras’. Tick ‘tensorflow’ and ‘Apply’. The pop-up window will appear, click on apply. 
 
-6. Launch Jupyter notebook and run below code to verify your installation
+6. Launch Jupyter notebook and run below code to verify your installation. Jupyter notebook Quick Start Guide: https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html#executing-a-notebook
 
 ```python
 
@@ -35,7 +35,7 @@ model_MLP.summary()
 Sign into Google account and visit below link
 https://colab.research.google.com/#create=true
 
-Run below code to verify your output
+Run below code to verify your output.
 
 ```python
 import tensorflow as tf
